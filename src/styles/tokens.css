@@ -1,58 +1,35 @@
-/**
- * travelsavvypro.org 디자인 토큰
- * 자동 생성됨 (2026-05-07T11:07:18.506Z)
- * 출처: design-tokens.json
- *
- * 형식: RGB 채널 (예: "168 216 201")
- * 사용: rgb(var(--color-primary) / 30%) → bg-primary/30 같은 Tailwind alpha 변형 가능
- */
-
+/* travelsavvypro.org design tokens — auto-generated 2026-05-08T03:42:03.488Z */
 :root {
   --color-background: 245 250 253;
   --color-foreground: 15 42 61;
-
   --color-primary: 91 163 208;
   --color-primary-foreground: 255 255 255;
-
   --color-accent: 245 192 74;
   --color-accent-foreground: 61 46 8;
-
   --color-muted: 240 245 248;
   --color-muted-foreground: 55 82 101;
-
   --color-card: 245 250 253;
   --color-card-foreground: 15 42 61;
-
   --color-border: 95 122 141;
   --color-input: 90 117 136;
   --color-ring: 91 163 208;
-
   --font-heading: "Lora", Georgia, serif;
   --font-body: "Inter", system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", "Playfair Display", serif;
   --font-mono: "JetBrains Mono", "Fira Code", monospace;
-
   --radius: 10px;
-
-  --transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 [data-theme='dark'] {
   --color-background: 10 24 32;
   --color-foreground: 232 240 245;
-
   --color-primary: 58 135 181;
   --color-primary-foreground: 255 255 255;
-
   --color-accent: 245 192 74;
   --color-accent-foreground: 61 46 8;
-
   --color-muted: 18 32 40;
   --color-muted-foreground: 202 210 215;
-
   --color-card: 15 29 37;
   --color-card-foreground: 232 240 245;
-
   --color-border: 172 180 185;
   --color-input: 167 175 180;
 }
