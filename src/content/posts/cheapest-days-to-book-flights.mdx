@@ -59,7 +59,7 @@ sources:
 visualsCount: 8
 hasVideo: false
 wordCount: 2870
-affiliate: false
+affiliate: true
 faq:
   - question: "Is Tuesday actually the cheapest day to book a flight?"
     answer: "The 'Tuesday at 3pm' rule is mostly outdated. Hopper's 2024 data shows the day-of-week effect is now under 2% on average — within the noise. Skyscanner's analysis of 1.4 billion searches found Sunday and Monday slightly cheaper, but the difference is small enough that timing the day of booking matters less than how far ahead you book."
@@ -79,6 +79,9 @@ internalLinks:
   - "/about"
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 It's 11:34 PM, you're closing 18 browser tabs, and the same flight is now $47 more expensive than it was yesterday afternoon. The instinct is to blame the airlines — but the actual mechanism is yield management running on a model that was set in motion 9 months ago when this route was first scheduled.
 
@@ -196,3 +199,57 @@ If you want a single rule from the four data sources combined:
 5. **Last-minute (under 14 days)** — Try Hopper's "tonight only" deals or Southwest direct. Otherwise expect 22%+ premium and accept it.
 
 Time matters more than tricks. The 28-60 day window for domestic and 60-120 for international are not optimization — they are the data telling you when airlines actually price the most efficiently.
+
+## Carry-on and packing gear that survives weekly flights
+
+Frequent-flyer reviews converge on three categories worth investing in: a durable carry-on, organized packing cubes, and TSA-approved locks. These three picks have outlasted multiple ownership cycles in independent durability reviews.
+
+<ProductBox
+  name="Travelpro Maxlite 5 Softside Spinner (21-inch carry-on)"
+  priceHint="$120-160 — flight-attendant carry-on choice"
+  pros={[
+    "Trusted by flight attendants — 10+ year durability ceiling",
+    "Lifetime limited warranty against material defects",
+    "1680D high-density nylon — survives airport handling abuse"
+  ]}
+  cons={[
+    "Softside lacks the impact protection of hardshell alternatives",
+    "Limited color options vs lifestyle brands"
+  ]}
+  href="https://www.amazon.com/s?k=Travelpro+Maxlite+5+21+inch+spinner+carry+on"
+  region="us"
+/>
+
+<ProductBox
+  name="Eagle Creek Pack-It Compression Cube Set"
+  priceHint="$40-65 — packing cubes with zipper compression"
+  pros={[
+    "Compression zippers reduce packed volume by 30-40%",
+    "Lifetime warranty against zipper and seam failure",
+    "Color-coded sets for multi-traveler trip organization"
+  ]}
+  cons={[
+    "Cubes don't reduce weight, only volume",
+    "Smaller cubes can encourage over-packing"
+  ]}
+  href="https://www.amazon.com/s?k=Eagle+Creek+Pack-It+compression+cube+set"
+  region="us"
+/>
+
+<ProductBox
+  name="LewisNClark Combination TSA-Approved Luggage Locks (4-Pack)"
+  priceHint="$15-25 — TSA-master-key compatible"
+  pros={[
+    "TSA-master-key — TSA can inspect without breaking locks",
+    "4-pack covers carry-on and 1 checked bag with spares",
+    "Combination dial, no key to lose"
+  ]}
+  cons={[
+    "Combination wheels feel slightly cheap (acceptable for the price)",
+    "TSA inspection still possible — locks delay, don't prevent"
+  ]}
+  href="https://www.amazon.com/s?k=LewisNClark+TSA+luggage+combination+lock"
+  region="us"
+/>
+
+The Travelpro Maxlite 5 + Eagle Creek cube set is the strongest dollar-for-dollar pair. Add the locks if you check bags or use shared accommodations with limited security.
