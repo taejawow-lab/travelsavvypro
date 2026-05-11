@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2620
-affiliate: false
+affiliate: true
 faq:
   - question: "What does '2.05¢ per Ultimate Rewards point' actually mean?"
     answer: "The Points Guy assigns a target redemption value to each loyalty currency. Chase Ultimate Rewards at 2.05¢ means a typical good redemption gets 2.05¢ of value per point — so 50,000 points = $1,025 worth of travel. The number is an aggregate target across all Chase transfer partners (Hyatt, United, Air France, etc.). Specific redemptions can range from 1.0¢ (mediocre) to 5+¢ (rare premium cabin sweet spots). The 2.05¢ is the realistic average across thoughtful redemptions."
@@ -79,6 +79,9 @@ faq:
     answer: "Three patterns consistently destroy value. (1) Cash-back at 0.6-1.0¢/point when transfer partners offer 2-5¢. (2) Statement credit on the airline's own portal — most airline cobranded cards offer 1¢ value and miss the partner premium. (3) Magazine subscriptions or merchandise — typically 0.4-0.8¢/point. (4) Gift cards from card issuer portals — typically 0.7-1.0¢. The throwaway redemptions at the bottom of every credit card statement are designed to extract value from cardholders who don't think strategically. They're traps."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 The Points Guy publishes monthly valuations for every major loyalty currency: Chase Ultimate Rewards at 2.05¢ per point, American Express Membership Rewards at 2.0¢, Delta SkyMiles at 1.21¢, United MileagePlus at 1.35¢, American AAdvantage at 1.55¢. Those numbers look arbitrary until you realize they're calibrated against actual award flight prices. When a one-way Polaris business-class ticket to Asia costs 80,000 United miles or $5,000 cash, that's 6.25¢ per mile — far above United's 1.35¢ baseline. When the same seat books at 200,000 miles, it's 2.5¢ — still above baseline but worse value.
 
@@ -214,3 +217,57 @@ Points are valuable when you use them precisely. They're worthless when you trea
 For a U.S. household earning a Sapphire Reserve welcome bonus once and earning 60K-90K points/year through everyday spending, the math typically supports one international economy trip per year on points or one premium cabin trip every 2-3 years. That's the realistic frame for most cardholders. The 2.05¢/point baseline is what makes that math work.
 
 Skip the cash-back trap. Use the partner transfer flexibility. Redeem above baseline.
+
+## Hardware and books that maximize long-haul award flights
+
+Award flights to premium cabins are the highest-ROI use of points. Three products make those long-haul flights actually pleasant: noise-canceling headphones, an AirTag for checked bags, and a points-strategy book.
+
+<ProductBox
+  name="Bose QuietComfort Ultra Headphones"
+  priceHint="$380-430 — best long-haul noise canceling"
+  pros={[
+    "Strongest passive + active noise canceling for engine drone",
+    "24-hour battery survives any single long-haul flight",
+    "Comfort over 12+ hour wear is class-leading"
+  ]}
+  cons={[
+    "Premium price reflects the long-haul-specific quality",
+    "Slightly bulkier than Sony XM5 for daily commute use"
+  ]}
+  href="https://www.amazon.com/s?k=Bose+QuietComfort+Ultra+headphones"
+  region="us"
+/>
+
+<ProductBox
+  name="Apple AirTag (4-Pack) for Checked Bags"
+  priceHint="$90-100 — checked bag location tracking"
+  pros={[
+    "Find My network in 100+ countries — global coverage",
+    "Saves hours of customer service calls when bags mis-route",
+    "4-pack covers all checked bags + carry-on backup"
+  ]}
+  cons={[
+    "Apple ecosystem only (Android users need Galaxy SmartTag)",
+    "Replaceable battery lasts ~1 year"
+  ]}
+  href="https://www.amazon.com/s?k=Apple+AirTag+4+pack"
+  region="us"
+/>
+
+<ProductBox
+  name="The Points Guy's Best Way to Use Points (Brian Kelly)"
+  priceHint="$15-22 — premium-cabin redemption strategy"
+  pros={[
+    "Concrete redemption strategy for premium cabins",
+    "Updated routinely — current transfer partner rates",
+    "Strong on credit card application timing for sign-up bonuses"
+  ]}
+  cons={[
+    "Some loyalty programs revalue regularly — book content shifts",
+    "Companion blog is more current than the book for recent changes"
+  ]}
+  href="https://www.amazon.com/s?k=Brian+Kelly+The+Points+Guy+book"
+  region="us"
+/>
+
+The Bose QC Ultra + AirTag pair is the minimum kit for any 8+ hour international flight. Kelly's book is for the trip planner who wants to maximize point value before booking the next award flight.
