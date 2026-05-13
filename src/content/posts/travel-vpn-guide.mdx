@@ -59,7 +59,7 @@ faq:
     answer: "A kill switch monitors your VPN connection and automatically blocks all internet traffic if the VPN drops unexpectedly. Without a kill switch, a momentary VPN disconnection would expose your true IP address and unencrypted traffic to the local network — including potentially malicious public WiFi attackers. Kill switches are critical for sensitive uses like banking access or accessing geo-restricted services. All three providers compared (Express, Nord, Proton) include kill switch functionality on Windows, Mac, iOS, Android. Verify it's enabled in settings before relying on VPN for security-critical activities."
   - question: "Can I install a VPN on my phone before traveling?"
     answer: "Yes, and you should install before departure. Some VPN apps are blocked from app stores in restrictive countries (App Store and Play Store removals occur in China, Russia, UAE). Installing at home guarantees access to the app, configuration documentation, and customer support during setup. Some providers offer obfuscation modes for restricted countries — ExpressVPN's stealth servers, NordVPN's Obfuscated Servers, ProtonVPN's Smart Routing. Test the VPN at home before departure to confirm working configuration."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -68,6 +68,11 @@ import Aff from '../../components/Aff.astro';
 VPNs (Virtual Private Networks) are essential for international travel security. Public WiFi at hotels, cafes, and airports broadcasts unencrypted traffic that any nearby attacker can intercept. Geo-restrictions block your home-country streaming services and sometimes banking sites from foreign IPs. Some countries' ISPs aggressively monitor or throttle traffic. A reliable travel VPN encrypts all traffic, routes through home-country servers to bypass geo-blocking, and hides browsing from local surveillance. We tested the major providers to identify the right VPN for different traveler profiles.
 
 ## The Three Travel VPN Use Cases
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tsv-c4-vpn-publicwifi.png" alt="Public airport WiFi security with VPN encryption shield" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 Travel VPNs solve three distinct problems that should drive provider choice:
 
@@ -80,6 +85,11 @@ Travel VPNs solve three distinct problems that should drive provider choice:
 Different VPN providers optimize for different use cases. Match your provider to your travel patterns.
 
 ## Top Pick — ExpressVPN
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tsv-c4-vpn-killswitch.png" alt="VPN kill switch settings panel on laptop" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="ExpressVPN 12-month Plan"
@@ -99,6 +109,11 @@ Restricted-country use works through "Lightway stealth" mode. ExpressVPN's steal
 
 ## Privacy Pick — ProtonVPN
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tsv-c4-vpn-streaming.png" alt="Streaming service home country geo-bypass through VPN tunnel concept" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 <ProductBox
   name="ProtonVPN Plus Plan"
   priceHint="$4.99/month billed annually"
@@ -116,6 +131,11 @@ The Secure Core architecture is unique. Premium routes traffic through Switzerla
 The open-source codebase enables independent verification of security claims. All ProtonVPN apps (Windows, Mac, iOS, Android, Linux, browser extensions) have published source code. Independent security audits by SEC Consult and Mozilla have verified the apps match the source. This transparency is rare among commercial VPN providers.
 
 ## Budget Pick — NordVPN
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tsv-c4-vpn-stealth.png" alt="Stealth mode VPN connection in restricted region" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="NordVPN 2-year Plan"
