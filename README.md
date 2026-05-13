@@ -53,4 +53,4 @@ master-template/
 ../scripts/setup_site.sh <new-domain>
 ```
 
-<!-- rebuild: 2026-05-13T11:51:02.5940488+09:00 -->
+<!-- rebuild-cookie-policy: 2026-05-13T22:45:08.7314643+09:00 -->
