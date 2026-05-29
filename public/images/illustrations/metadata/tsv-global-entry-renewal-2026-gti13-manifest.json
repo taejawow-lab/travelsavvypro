@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026-05-29T10:13:57Z",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "site": "travelsavvypro",
+  "source": "direct ComfyUI API only",
+  "system_stats": {
+    "system": {
+      "os": "win32",
+      "ram_total": 68466884608,
+      "ram_free": 55489839104,
+      "comfyui_version": "0.20.1",
+      "required_frontend_version": "1.43.17",
+      "installed_templates_version": "0.9.72",
+      "required_templates_version": "0.9.72",
+      "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "pytorch_version": "2.6.0+cu124",
+      "embedded_python": false,
+      "argv": [
+        "main.py",
+        "--listen",
+        "0.0.0.0",
+        "--port",
+        "8188",
+        "--enable-cors-header",
+        "*"
+      ]
+    },
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ]
+  },
+  "queue_before": {
+    "queue_running": [],
+    "queue_pending": []
+  },
+  "assets": [
+    {
+      "site": "travelsavvypro",
+      "file": "public/images/illustrations/tsv-global-entry-renewal-2026-hero.png",
+      "alt": "Global Entry renewal travel desk with passport, laptop, and airport departure items",
+      "seed": 202605290701,
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "workflow": "CheckpointLoaderSimple -> CLIPTextEncode -> EmptyLatentImage -> KSampler -> VAEDecode -> SaveImage",
+      "prompt": "premium realistic editorial travel photo, organized desk before an international trip, closed passport cover without readable markings, laptop with abstract blank application screen, boarding-pass sized blank paper, carry-on bag in background, soft daylight, no text, no logos",
+      "negative": "text, letters, words, numbers, logo, watermark, signature, brand marks, passport text, ID numbers, readable screen text, UI screenshot, poster, sign, airport sign, map labels, distorted objects, extra fingers, bad hands, bad anatomy, blurry, low quality, cartoon, illustration, placeholder, generic stock image",
+      "steps": 24,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "60d2085e-f0fb-40c4-81fa-f68640f13f8d",
+      "comfy_output": {
+        "filename": "hermes_tsp_global_entry_20260529_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "visual_qa": "PASS: raster PNG, 1536x864, no obvious readable text/logo/signage after contact-sheet review",
+      "image_stats": {
+        "width": 1536,
+        "height": 864,
+        "mode": "RGB",
+        "bytes": 1459170,
+        "mean_rgb": [
+          132.36,
+          126.91,
+          116.77
+        ],
+        "stddev_rgb": [
+          71.18,
+          70.66,
+          68.31
+        ]
+      }
+    },
+    {
+      "site": "travelsavvypro",
+      "file": "public/images/illustrations/tsv-global-entry-renewal-2026-timeline.png",
+      "alt": "Calendar-style renewal planning scene without readable text",
+      "seed": 202605290702,
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "workflow": "CheckpointLoaderSimple -> CLIPTextEncode -> EmptyLatentImage -> KSampler -> VAEDecode -> SaveImage",
+      "prompt": "realistic travel planning scene, wall calendar pages turned away with no visible text or numbers, passport wallet, smartphone blank screen, pen, coffee, carry-on suitcase, bright natural light, no text, no logos",
+      "negative": "text, letters, words, numbers, logo, watermark, signature, brand marks, passport text, ID numbers, readable screen text, UI screenshot, poster, sign, airport sign, map labels, distorted objects, extra fingers, bad hands, bad anatomy, blurry, low quality, cartoon, illustration, placeholder, generic stock image",
+      "steps": 24,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "c392d0ee-7024-4c88-9662-b1c9dc27c389",
+      "comfy_output": {
+        "filename": "hermes_tsp_global_entry_20260529_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "visual_qa": "PASS: raster PNG, 1536x864, no obvious readable text/logo/signage after contact-sheet review",
+      "image_stats": {
+        "width": 1536,
+        "height": 864,
+        "mode": "RGB",
+        "bytes": 1293962,
+        "mean_rgb": [
+          157.34,
+          144.33,
+          122.75
+        ],
+        "stddev_rgb": [
+          65.25,
+          64.38,
+          61.32
+        ]
+      }
+    },
+    {
+      "site": "travelsavvypro",
+      "file": "public/images/illustrations/tsv-global-entry-renewal-2026-documents.png",
+      "alt": "Documents and identity checklist staged for a trusted traveler interview",
+      "seed": 202605290703,
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "workflow": "CheckpointLoaderSimple -> CLIPTextEncode -> EmptyLatentImage -> KSampler -> VAEDecode -> SaveImage",
+      "prompt": "realistic flat lay of travel documents for trusted traveler renewal, closed passport, blank identity card shapes with no data, utility bill envelope blank, laptop corner, organized folders, no readable text, no logos",
+      "negative": "text, letters, words, numbers, logo, watermark, signature, brand marks, passport text, ID numbers, readable screen text, UI screenshot, poster, sign, airport sign, map labels, distorted objects, extra fingers, bad hands, bad anatomy, blurry, low quality, cartoon, illustration, placeholder, generic stock image",
+      "steps": 24,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "ad1de72c-0abf-4acb-bec8-f1e4c0b64f47",
+      "comfy_output": {
+        "filename": "hermes_tsp_global_entry_20260529_00003_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "visual_qa": "PASS: raster PNG, 1536x864, no obvious readable text/logo/signage after contact-sheet review",
+      "image_stats": {
+        "width": 1536,
+        "height": 864,
+        "mode": "RGB",
+        "bytes": 2060052,
+        "mean_rgb": [
+          139.93,
+          130.99,
+          117.13
+        ],
+        "stddev_rgb": [
+          49.97,
+          50.42,
+          52.69
+        ]
+      }
+    },
+    {
+      "site": "travelsavvypro",
+      "file": "public/images/illustrations/tsv-global-entry-renewal-2026-interview.png",
+      "alt": "Enrollment-on-arrival and interview decision scene at an airport",
+      "seed": 202605290704,
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "workflow": "CheckpointLoaderSimple -> CLIPTextEncode -> EmptyLatentImage -> KSampler -> VAEDecode -> SaveImage",
+      "prompt": "realistic airport arrival hall interview preparation scene, traveler with carry-on approaching a neutral service counter, blank wall panels, no signage or readable text, professional lighting, no logos",
+      "negative": "text, letters, words, numbers, logo, watermark, signature, brand marks, passport text, ID numbers, readable screen text, UI screenshot, poster, sign, airport sign, map labels, distorted objects, extra fingers, bad hands, bad anatomy, blurry, low quality, cartoon, illustration, placeholder, generic stock image",
+      "steps": 24,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "09263b52-14d5-44d8-8057-c27935d0f580",
+      "comfy_output": {
+        "filename": "hermes_tsp_global_entry_20260529_00004_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "visual_qa": "PASS: raster PNG, 1536x864, no obvious readable text/logo/signage after contact-sheet review",
+      "image_stats": {
+        "width": 1536,
+        "height": 864,
+        "mode": "RGB",
+        "bytes": 1407133,
+        "mean_rgb": [
+          140.78,
+          136.5,
+          124.15
+        ],
+        "stddev_rgb": [
+          48.02,
+          46.34,
+          43.07
+        ]
+      }
+    },
+    {
+      "site": "travelsavvypro",
+      "file": "public/images/illustrations/tsv-global-entry-renewal-2026-family.png",
+      "alt": "Family renewal planning with passports and carry-on luggage",
+      "seed": 202605290705,
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "workflow": "CheckpointLoaderSimple -> CLIPTextEncode -> EmptyLatentImage -> KSampler -> VAEDecode -> SaveImage",
+      "prompt": "realistic family travel preparation scene, two adults arranging passports and small carry-on bags on dining table, child backpack nearby, laptop blank screen, warm home lighting, no text, no logos",
+      "negative": "text, letters, words, numbers, logo, watermark, signature, brand marks, passport text, ID numbers, readable screen text, UI screenshot, poster, sign, airport sign, map labels, distorted objects, extra fingers, bad hands, bad anatomy, blurry, low quality, cartoon, illustration, placeholder, generic stock image",
+      "steps": 24,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "64350fe3-46f6-454b-8ec4-bd8ddf285676",
+      "comfy_output": {
+        "filename": "hermes_tsp_global_entry_20260529_00005_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "visual_qa": "PASS: raster PNG, 1536x864, no obvious readable text/logo/signage after contact-sheet review",
+      "image_stats": {
+        "width": 1536,
+        "height": 864,
+        "mode": "RGB",
+        "bytes": 1529582,
+        "mean_rgb": [
+          93.62,
+          71.43,
+          46.03
+        ],
+        "stddev_rgb": [
+          53.12,
+          43.02,
+          32.82
+        ]
+      }
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/travelsavvypro-20260529-global-entry-contact-sheet.jpg",
+  "visual_qa_summary": "Contact sheet inspected; all accepted images are topic-relevant, photographic raster PNGs, no placeholder/SVG counted, no obvious readable text/logos."
+}
