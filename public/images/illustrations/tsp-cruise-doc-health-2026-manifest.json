@@ -1,0 +1,168 @@
+{
+  "site": "travelsavvypro",
+  "slug": "cruise-travel-document-health-checklist-2026",
+  "date": "2026-06-03",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tsp-cruise-doc-health-2026-hero.png",
+      "filename": "tsp-cruise-doc-health-2026-hero.png",
+      "prompt": "realistic cruise vacation preparation still life with closed plain travel wallet, suitcase, sunglasses, blank envelope, no passport visible, no text, no logos",
+      "seed": 202606039104,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "6e8f7a44-32ab-4939-848d-ed6bc38d1298",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_final2_travelsavvypro_tsp-cruise-doc-health-2026-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2093421,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true,
+      "qa_replacement_round": 2
+    },
+    {
+      "file": "public/images/illustrations/tsp-cruise-doc-health-2026-01.png",
+      "filename": "tsp-cruise-doc-health-2026-01.png",
+      "prompt": "realistic cruise travel document planning flat lay with closed plain document wallet, sunglasses, blank papers turned over, no passport words, no readable text",
+      "seed": 202606039004,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4e658658-d09e-4c48-9d9f-8f7061d287f2",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_finalqa_travelsavvypro_tsp-cruise-doc-health-2026-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2138473,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true
+    },
+    {
+      "file": "public/images/illustrations/tsp-cruise-doc-health-2026-02.png",
+      "filename": "tsp-cruise-doc-health-2026-02.png",
+      "prompt": "realistic cruise luggage preparation with plain suitcase and unmarked luggage tags turned face down, no words, no logos, no labels",
+      "seed": 202606039005,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "77b87cf7-7ce6-4451-9447-7ac0a542c0d3",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_finalqa_travelsavvypro_tsp-cruise-doc-health-2026-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2142470,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true
+    },
+    {
+      "file": "public/images/illustrations/tsp-cruise-doc-health-2026-03.png",
+      "filename": "tsp-cruise-doc-health-2026-03.png",
+      "prompt": "realistic travel health kit and insurance folder on desk no readable labels",
+      "seed": 202606030616,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "6a08eaf9-6e19-4e3e-b145-20da8aca81ea",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_travelsavvypro_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1590845,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tsp-cruise-doc-health-2026-04.png",
+      "filename": "tsp-cruise-doc-health-2026-04.png",
+      "prompt": "realistic port day planning still life with sunglasses, blank folded paper, compass, plain notebook, no map, no text, no labels",
+      "seed": 202606039105,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e6cfdd6f-8111-40cc-a3d2-0983f7df34a1",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_final2_travelsavvypro_tsp-cruise-doc-health-2026-04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2005044,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true,
+      "qa_replacement_round": 2
+    },
+    {
+      "file": "public/images/illustrations/tsp-cruise-doc-health-2026-05.png",
+      "filename": "tsp-cruise-doc-health-2026-05.png",
+      "prompt": "realistic missed cruise departure backup planning with open suitcase, dark blank phone screen face down, travel pouch, no UI, no words",
+      "seed": 202606039006,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "6dd4a636-cbbc-4fda-bf00-4fb3d53bc7ee",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_finalqa_travelsavvypro_tsp-cruise-doc-health-2026-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1801334,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true
+    }
+  ],
+  "contact_sheet_final2": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260603-travelsavvypro-contact-sheet-final2.jpg"
+}
