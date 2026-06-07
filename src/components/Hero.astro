@@ -1,122 +1,18 @@
 ---
-export interface Props {
-  title: string;
-  subtitle: string;
-  illustration?: string;
-  ctaText?: string;
-  ctaHref?: string;
-}
-
-const envIllustration = import.meta.env.PUBLIC_HAS_HERO_ILLUSTRATION === 'true'
-  ? '/images/illustrations/hero.png'
-  : undefined;
-
-const edition = import.meta.env.PUBLIC_SITE_EDITION || '';
+export interface Props { title: string; subtitle: string; illustration?: string; ctaText?: string; ctaHref?: string; }
+const envIllustration = import.meta.env.PUBLIC_HAS_HERO_ILLUSTRATION === 'true' ? '/images/illustrations/hero.png' : undefined;
+const edition = import.meta.env.PUBLIC_SITE_EDITION || 'TS · VOLUME 01';
 const tagline = import.meta.env.PUBLIC_SITE_TAGLINE || '';
-
-const {
-  title,
-  subtitle,
-  illustration = envIllustration,
-  ctaText = 'Read latest →',
-  ctaHref = '#latest',
-} = Astro.props;
-
-// 현재 날짜 포맷 (editorial dateline)
+const { title, subtitle, illustration = envIllustration, ctaText = 'Start with the latest dossier', ctaHref = '#latest' } = Astro.props;
 const today = new Date();
 const dateline = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).toUpperCase();
 ---
-
-<section class="relative overflow-hidden bg-background">
-  <!-- 미세 격자 배경 (매거진 paper 느낌) -->
-  <div class="absolute inset-0 pointer-events-none opacity-[0.03]" aria-hidden="true"
-       style="background-image: linear-gradient(to right, rgb(var(--color-foreground)) 1px, transparent 1px), linear-gradient(to bottom, rgb(var(--color-foreground)) 1px, transparent 1px); background-size: 64px 64px;"></div>
-
-  <!-- accent 색상 거대 블록 (asymmetric) -->
-  <div class="absolute -top-24 -right-32 w-[520px] h-[520px] rounded-full pointer-events-none"
-       style="background: radial-gradient(circle, rgb(var(--color-accent) / 0.18) 0%, transparent 70%);"
-       aria-hidden="true"></div>
-  <div class="absolute -bottom-32 -left-24 w-[420px] h-[420px] rounded-full pointer-events-none"
-       style="background: radial-gradient(circle, rgb(var(--color-primary) / 0.20) 0%, transparent 70%);"
-       aria-hidden="true"></div>
-
-  <div class="container mx-auto px-6 md:px-10 pt-12 md:pt-16 pb-20 md:pb-32 relative">
-    <!-- editorial top bar — edition · dateline · 가는 가로선 -->
-    <div class="flex items-center gap-4 text-xs uppercase tracking-[0.18em] text-muted-foreground mb-12 md:mb-20">
-      {edition && (
-        <span class="font-mono">{edition}</span>
-      )}
-      <span class="flex-1 h-px bg-border"></span>
-      <span class="font-mono">{dateline}</span>
-    </div>
-
-    <!-- asymmetric 12-col grid: 텍스트 8col + 일러스트 5col with 1col 겹침 -->
-    <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 items-start">
-      <!-- 거대 헤딩 영역 (col 1-9, illustration과 의도적 겹침) -->
-      <div class="col-span-12 md:col-span-9 relative z-10">
-        <!-- ITEM № 표시 (매거진 디테일) -->
-        <p class="text-xs uppercase tracking-[0.2em] text-accent font-mono mb-4 md:mb-6">
-          № 01 · LEAD STORY
-        </p>
-
-        <!-- oversized display heading — 화면 폭의 절반 차지 -->
-        <h1
-          class="font-bold text-5xl md:text-7xl lg:text-[6.5rem] leading-[1.05] md:leading-[1.0] tracking-[-0.02em] mb-8 md:mb-10"
-          style="font-family: var(--font-display); word-break: keep-all; overflow-wrap: break-word;"
-        >
-          {title}
-        </h1>
-
-        <!-- subtitle: 큰 sans-serif body, 분명한 leading -->
-        <p class="text-lg md:text-xl lg:text-2xl text-foreground/75 max-w-2xl leading-[1.4] mb-10 md:mb-12 font-light">
-          {subtitle}
-        </p>
-
-        <!-- CTA + 작은 사이드 메타 -->
-        <div class="flex flex-wrap items-center gap-6">
-          <a href={ctaHref} class="btn-primary group inline-flex items-center gap-3 px-7 py-3.5 text-sm uppercase tracking-[0.15em] font-semibold">
-            {ctaText}
-          </a>
-          {tagline && (
-            <span class="text-xs uppercase tracking-[0.18em] text-muted-foreground font-mono">
-              · {tagline}
-            </span>
-          )}
-        </div>
-      </div>
-
-      <!-- 일러스트 (col 8-12, 텍스트와 1col 겹침으로 layered look) -->
-      <div class="col-span-12 md:col-span-5 md:-ml-12 lg:-ml-20 mt-10 md:-mt-8 relative">
-        {illustration ? (
-          <div class="relative">
-            <!-- 일러스트 frame 효과 — 살짝 회전 + 그림자 -->
-            <div class="absolute inset-0 bg-accent/10 -rotate-1 rounded-sm" aria-hidden="true"></div>
-            <img
-              src={illustration}
-              alt=""
-              class="relative w-full h-auto rounded-sm shadow-[0_30px_80px_-30px_rgba(0,0,0,0.25)] rotate-[1deg] transition-transform hover:rotate-0 duration-700"
-              loading="eager"
-            />
-            <!-- 일러스트 caption (매거진 디테일) -->
-            <p class="absolute -bottom-7 right-0 text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-mono">
-              ↑ Cover illustration
-            </p>
-          </div>
-        ) : (
-          <!-- fallback: minimalist 추상 SVG -->
-          <svg class="w-full max-w-md h-auto rotate-[2deg]" viewBox="0 0 400 400" fill="none" aria-hidden="true">
-            <circle cx="200" cy="200" r="160" fill="rgb(var(--color-primary) / 0.12)"/>
-            <circle cx="160" cy="160" r="100" fill="rgb(var(--color-accent) / 0.18)"/>
-            <circle cx="240" cy="240" r="60" fill="rgb(var(--color-primary) / 0.25)"/>
-          </svg>
-        )}
-      </div>
-    </div>
-
-    <!-- 하단 thin label rail -->
-    <div class="mt-16 md:mt-24 pt-6 border-t border-border flex items-center justify-between text-xs uppercase tracking-[0.2em] text-muted-foreground font-mono">
-      <span>Editorial · Curated · Cited</span>
-      <span class="hidden md:inline">Scroll to read ↓</span>
-    </div>
+<section class="hero-navy relative overflow-hidden text-[var(--on-navy)]">
+  <div class="absolute inset-0 opacity-[0.08]" aria-hidden="true" style="background-image: linear-gradient(to right, var(--on-navy-line) 1px, transparent 1px), linear-gradient(to bottom, var(--on-navy-line) 1px, transparent 1px); background-size: 72px 72px;"></div>
+  <div class="wrap relative py-14 md:py-20 lg:py-24">
+    <div class="mb-10 flex items-center gap-4 text-[10px] uppercase tracking-[0.22em] text-[var(--on-navy-soft)]" style="font-family: var(--font-mono);"><span>{edition}</span><span class="h-px flex-1 bg-[var(--on-navy-line)]"></span><span>{dateline}</span></div>
+    <div class="grid items-end gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(340px,.7fr)]"><div><p class="mb-5 text-[11px] uppercase tracking-[0.22em] text-[var(--amber-soft)]" style="font-family: var(--font-mono);">№ 01 · data-grounded travel publication</p><h1 class="max-w-[12ch] text-[clamp(46px,8vw,108px)] font-medium leading-[0.96] tracking-[-0.026em]" style="font-family: var(--font-display);">{title}</h1><p class="mt-7 max-w-2xl text-xl leading-8 text-[var(--on-navy-soft)] md:text-2xl">{subtitle}</p><div class="mt-9 flex flex-wrap items-center gap-4"><a href={ctaHref} class="btn-editorial btn-editorial-light">{ctaText} <span aria-hidden="true">→</span></a><a href="/search/" class="btn-editorial btn-editorial-ghost">Search the archive</a>{tagline && <span class="text-[10px] uppercase tracking-[0.18em] text-[var(--on-navy-soft)]" style="font-family: var(--font-mono);">· {tagline}</span>}</div></div>
+      <div class="relative"><div class="mb-3 text-[10px] uppercase tracking-[0.18em] text-[var(--on-navy-soft)]" style="font-family: var(--font-mono);">Cover · verified routes</div>{illustration ? (<figure class="hero-frame relative m-0"><img src={illustration} alt="" class="aspect-[4/3] w-full object-cover" loading="eager" fetchpriority="high" decoding="async" /><figcaption class="absolute bottom-4 left-4 border bg-[rgba(8,19,29,.72)] px-3 py-2 text-[10px] uppercase tracking-[0.18em] text-[var(--on-navy)] backdrop-blur" style="border-color: var(--on-navy-line); font-family: var(--font-mono);">Current dossier</figcaption></figure>) : (<div class="hero-frame aspect-[4/3] border" style="border-color: var(--on-navy-line);"></div>)}</div></div>
+    <div class="mt-12 grid gap-3 border-t pt-5 text-[10px] uppercase tracking-[0.18em] text-[var(--on-navy-soft)] sm:grid-cols-4" style="border-color: var(--on-navy-line); font-family: var(--font-mono);"><span><b class="text-[var(--on-navy)]">39</b> preserved travel guides</span><span><b class="text-[var(--on-navy)]">8+</b> sources per new guide</span><span><b class="text-[var(--on-navy)]">No</b> sponsored stays</span><span><b class="text-[var(--on-navy)]">SEO</b> routes retained</span></div>
   </div>
 </section>

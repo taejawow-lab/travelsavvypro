@@ -1,6 +1,5 @@
 /* fonts */
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Inter:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
 
 @import './tokens.css';
 
@@ -192,4 +191,60 @@
   .focus-ring-soft {
     @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring;
   }
+}
+
+/* travelsavvypro editorial renewal */
+@layer base {
+  html { background: var(--paper); }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-optical-sizing: auto;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: .035;
+    mix-blend-mode: multiply;
+    background-image: radial-gradient(circle at 1px 1px, var(--ink) .65px, transparent .8px);
+    background-size: 9px 9px;
+  }
+  [data-theme='dark'] body::before { mix-blend-mode: screen; opacity: .025; }
+  h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); color: var(--ink); }
+  a { text-decoration-thickness: 1px; text-underline-offset: .18em; }
+}
+
+@layer components {
+  .wrap { max-width: 1240px; margin-inline: auto; padding-inline: clamp(20px, 5vw, 64px); }
+  .hero-navy { background: var(--navy-ink); }
+  .hero-frame { box-shadow: var(--shadow-lg); border: 1px solid var(--on-navy-line); transform: rotate(.5deg); }
+  .btn-editorial {
+    display: inline-flex; min-height: 44px; align-items: center; justify-content: center; gap: .55rem;
+    border: 1.5px solid currentColor; padding: .82rem 1.15rem; border-radius: 2px;
+    font-family: var(--font-mono); font-size: 11px; font-weight: 500; letter-spacing: .13em; text-transform: uppercase;
+    transition: transform .18s ease, color .18s ease, background .18s ease, border-color .18s ease;
+  }
+  .btn-editorial:hover { transform: translateY(-1px); }
+  .btn-editorial-light { background: var(--on-navy); border-color: var(--on-navy); color: var(--navy-ink); }
+  .btn-editorial-ghost { color: var(--on-navy); border-color: var(--on-navy-line); background: transparent; }
+  .btn-editorial-outline { color: var(--ink); border-color: var(--ink); background: transparent; }
+  .article-card { border-radius: 6px; }
+  .article-card > a { border-radius: 6px; }
+  .image-duotone img { filter: saturate(.72) contrast(1.04); }
+  .article-card:nth-child(even) .image-duotone img { filter: grayscale(.88) contrast(1.08); }
+  .save-dot[data-saved='true'] { color: var(--amber); background: var(--card); }
+  .editorial-card { background-image: none; }
+  .prose-article { font-family: var(--font-body); color: var(--ink); }
+  .prose-article > p:first-of-type::first-letter { float: left; font-family: var(--font-display); font-size: 4.6rem; line-height: .82; padding-right: .45rem; color: var(--amber); }
+  .prose-article :where(table) { display: block; max-width: 100%; overflow-x: auto; border: 1px solid var(--line); background: var(--card); }
+  .prose-article :where(th) { font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .08em; font-size: .72rem; color: var(--navy); }
+  .prose-article :where(img) { border-radius: 4px !important; box-shadow: var(--shadow) !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }

@@ -1,73 +1,26 @@
 ---
 import ThemeToggle from './ThemeToggle.astro';
-
-const siteName = import.meta.env.PUBLIC_SITE_NAME || 'yookahplus';
-const edition = import.meta.env.PUBLIC_SITE_EDITION || '';
-
+import TravelMark from './TravelMark.astro';
+const siteName = import.meta.env.PUBLIC_SITE_NAME || 'TravelSavvyPro';
+const edition = import.meta.env.PUBLIC_SITE_EDITION || 'TS · VOLUME 01';
 const navItems = [
+  { label: 'Planning', href: '/category/travel-planning/' },
+  { label: 'Travel Tech', href: '/category/travel-tech/' },
+  { label: 'Rewards', href: '/category/rewards/' },
+  { label: 'Gear', href: '/category/travel-gear/' },
   { label: 'Posts', href: '/posts/' },
-  { label: 'Categories', href: '/categories/' },
-  { label: 'Search', href: '/search/' },
-  { label: 'About', href: '/about' },
-  { label: 'Editorial', href: '/editorial-process' },
+  { label: 'About', href: '/about/' },
 ];
 ---
-
-<!-- modern editorial header: token-driven, mobile discoverable, no client JS -->
-<header class="sticky top-0 z-50 backdrop-blur-xl bg-background/90 border-b border-border/70 shadow-[0_1px_0_rgba(15,23,42,0.03)]">
-  {edition && (
-    <div class="border-b border-border/50 bg-muted/25">
-      <div class="container mx-auto px-4 sm:px-6 md:px-10 min-h-8 flex items-center justify-between gap-3 text-[10px] uppercase tracking-[0.22em] text-muted-foreground font-mono">
-        <span class="truncate">{edition}</span>
-        <span class="hidden sm:inline">A data-grounded publication</span>
-      </div>
-    </div>
-  )}
-
-  <div class="container mx-auto px-4 sm:px-6 md:px-10 min-h-[68px] md:min-h-20 flex items-center justify-between gap-4">
-    <a href="/" class="group flex min-w-0 items-center gap-3 rounded-md py-2 focus-visible:outline-ring" aria-label={`${siteName} home`}>
-      <span class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm ring-1 ring-border/30" aria-hidden="true">
-        <span class="text-sm font-bold" style="font-family: var(--font-display);">{siteName.slice(0, 1).toUpperCase()}</span>
-      </span>
-      <span
-        class="truncate text-2xl md:text-3xl font-bold tracking-[-0.025em] leading-none transition-colors group-hover:text-primary"
-        style="font-family: var(--font-display);"
-      >
-        {siteName}
-      </span>
+<header class="nav-shell sticky top-0 z-50 border-b backdrop-blur-xl" style="border-color: var(--line); background: color-mix(in srgb, var(--paper) 88%, transparent);">
+  <div class="masthead-strip border-b" style="border-color: var(--line);"><div class="wrap flex min-h-8 items-center justify-between gap-3 text-[10px] uppercase tracking-[0.22em] text-[var(--ink-faint)]" style="font-family: var(--font-mono);"><span class="truncate">{edition}</span><span class="hidden sm:inline">Data-grounded travel · cited routes</span></div></div>
+  <div class="wrap flex min-h-[74px] items-center justify-between gap-4">
+    <a href="/" class="group flex min-w-0 items-center gap-3 rounded-sm focus-visible:outline-ring" aria-label={`${siteName} home`}>
+      <span class="grid h-12 w-12 shrink-0 place-items-center text-[var(--ink)] transition-colors group-hover:text-[var(--amber)]"><TravelMark class="h-12 w-12" /></span>
+      <span class="min-w-0"><span class="block truncate text-2xl font-semibold tracking-[-0.018em] md:text-3xl" style="font-family: var(--font-display);">TravelSavvyPro</span><span class="hidden text-[10px] uppercase tracking-[0.18em] text-[var(--ink-faint)] sm:block" style="font-family: var(--font-mono);">Volume 01 · Cited</span></span>
     </a>
-
-    <div class="flex items-center gap-3 md:gap-6">
-      <nav aria-label="Primary navigation" class="hidden md:block">
-        <ul class="flex items-center gap-1 text-xs lg:text-sm uppercase tracking-[0.12em]">
-          {navItems.map((item) => (
-            <li>
-              <a
-                href={item.href}
-                class="rounded-full px-3 py-2 text-foreground/72 hover:bg-muted hover:text-foreground focus-visible:outline-ring transition-colors"
-              >
-                {item.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-      <a href="/search/" class="hidden sm:inline-flex md:hidden min-h-10 items-center rounded-full border border-border bg-card px-4 text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 shadow-sm">
-        Search
-      </a>
-      <ThemeToggle />
-    </div>
+    <nav aria-label="Primary navigation" class="hidden lg:block"><ul class="flex items-center gap-1 text-[11px] font-medium uppercase tracking-[0.15em]" style="font-family: var(--font-mono);">{navItems.map((item) => (<li><a href={item.href} class="rounded-sm px-3 py-2 text-[var(--ink-soft)] transition-colors hover:bg-[var(--paper-2)] hover:text-[var(--navy)] focus-visible:outline-ring">{item.label}</a></li>))}</ul></nav>
+    <div class="flex items-center gap-2"><a href="/search/" class="inline-grid h-11 min-w-11 place-items-center border px-3 text-[11px] uppercase tracking-[0.14em] text-[var(--ink-soft)] transition-colors hover:border-[var(--amber)] hover:text-[var(--amber)]" style="border-color: var(--line); font-family: var(--font-mono);" aria-label="Search">⌘K</a><button data-bookmark-drawer class="hidden h-11 items-center border px-3 text-[11px] uppercase tracking-[0.14em] text-[var(--ink-soft)] transition-colors hover:border-[var(--amber)] hover:text-[var(--amber)] sm:inline-flex" style="border-color: var(--line); font-family: var(--font-mono);" type="button">Saved <span data-bookmark-count class="ml-1">0</span></button><ThemeToggle /></div>
   </div>
-
-  <nav aria-label="Mobile primary navigation" class="md:hidden border-t border-border/55 bg-background/95">
-    <ul class="container mx-auto flex gap-2 overflow-x-auto px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] [-webkit-overflow-scrolling:touch]">
-      {navItems.map((item) => (
-        <li class="shrink-0">
-          <a href={item.href} class="inline-flex min-h-10 items-center rounded-full border border-border/70 bg-card px-4 text-foreground/75 shadow-sm transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-ring">
-            {item.label}
-          </a>
-        </li>
-      ))}
-    </ul>
-  </nav>
+  <nav aria-label="Mobile primary navigation" class="lg:hidden border-t" style="border-color: var(--line);"><ul class="wrap flex gap-2 overflow-x-auto py-2 text-[11px] uppercase tracking-[0.12em] [-webkit-overflow-scrolling:touch]" style="font-family: var(--font-mono);">{navItems.map((item) => (<li class="shrink-0"><a href={item.href} class="inline-flex min-h-10 items-center border px-4 text-[var(--ink-soft)]" style="border-color: var(--line);">{item.label}</a></li>))}</ul></nav>
 </header>
