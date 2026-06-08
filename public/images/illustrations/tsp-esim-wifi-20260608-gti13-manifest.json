@@ -1,0 +1,70 @@
+{
+  "site": "travelsavvypro",
+  "slug": "esim-public-wifi-travel-security-checklist-2026",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "images": [
+    {
+      "file": "public/images/illustrations/tsp-esim-wifi-20260608-hero.png",
+      "seed": 90610000,
+      "prompt": "traveler preparing phone connectivity with passport closed no readable text and phone dark blank screen",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tsp-esim-wifi-20260608-hero_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/tsp-esim-wifi-20260608-01.png",
+      "seed": 90610001,
+      "prompt": "airport lounge table with phone blank screen, cable, power bank, and privacy shield objects no logos",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tsp-esim-wifi-20260608-01_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/tsp-esim-wifi-20260608-02.png",
+      "seed": 90610002,
+      "prompt": "hotel room desk with router-like object in background and laptop blank screen no UI",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tsp-esim-wifi-20260608-02_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/tsp-esim-wifi-20260608-03.png",
+      "seed": 90610003,
+      "prompt": "traveler comparing two SIM tools as abstract phone tray and blank cards no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tsp-esim-wifi-20260608-03_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/tsp-esim-wifi-20260608-04.png",
+      "seed": 90610004,
+      "prompt": "secure phone settings review represented by lock object and blank device screen no readable details",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tsp-esim-wifi-20260608-04_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/tsp-esim-wifi-20260608-05.png",
+      "seed": 90610005,
+      "prompt": "calm travel day bag with power bank, phone face down, and printed checklist blank no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tsp-esim-wifi-20260608-05_00001_.png"
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/tsp-esim-wifi-20260608-contact-sheet.jpg",
+  "visual_qa": "pass: final contact sheet inspected; rejected screen/text-heavy artifacts regenerated where needed; no readable text/logos/unsafe scenes accepted"
+}
