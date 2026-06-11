@@ -1,0 +1,178 @@
+{
+  "site": "travelsavvypro",
+  "slug": "lost-delayed-baggage-claim-evidence-kit-2026",
+  "date": "2026-06-11",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tsv-baggage-claim-evidence-2026-hero.png",
+      "filename": "tsv-baggage-claim-evidence-2026-hero.png",
+      "prompt": "realistic airport baggage claim planning scene with plain suitcase, blank luggage tag turned away, dark phone screen, no text no logos",
+      "positive_prompt": "realistic airport baggage claim planning scene with plain suitcase, blank luggage tag turned away, dark phone screen, no text no logos, professional realistic editorial photography, natural light, 16:9, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank or turned-away screens only",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, face closeup, child face closeup, distorted forms, fake receipts, fake official papers, financial numbers, medical labels, map labels, passport text, unsafe scene, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606111613,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.3,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "536c9eea-747b-4f61-98c9-952a3e017b92",
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1435792,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_travelsavvypro_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tsv-baggage-claim-evidence-2026-01.png",
+      "filename": "tsv-baggage-claim-evidence-2026-01.png",
+      "prompt": "realistic airport packing documentation desk with plain suitcase and blank tag no text no logos",
+      "positive_prompt": "realistic airport packing documentation desk with plain suitcase and blank tag no text no logos, professional realistic editorial photography, natural light, 16:9, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank or turned-away screens only",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, face closeup, child face closeup, distorted forms, fake receipts, fake official papers, financial numbers, medical labels, map labels, passport text, unsafe scene, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606111614,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.3,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "aac64c23-1f88-4830-adf3-a3f97aff8310",
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1738121,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_travelsavvypro_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tsv-baggage-claim-evidence-2026-02.png",
+      "filename": "tsv-baggage-claim-evidence-2026-02.png",
+      "prompt": "still life delayed baggage essentials kit with folded clothes, plain suitcase, receipts hidden face down, dark blank phone screen, no UI, no text, no people",
+      "positive_prompt": "still life delayed baggage essentials kit with folded clothes, plain suitcase, receipts hidden face down, dark blank phone screen, no UI, no text, no people, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112007,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a8b4d8d6-5dac-4bb6-aae1-a2f2065de456",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_travelsavvypro_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1973996,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tsv-baggage-claim-evidence-2026-03.png",
+      "filename": "tsv-baggage-claim-evidence-2026-03.png",
+      "prompt": "realistic airline counter preparation scene with closed suitcase and plain folders no signs no logos",
+      "positive_prompt": "realistic airline counter preparation scene with closed suitcase and plain folders no signs no logos, professional realistic editorial photography, natural light, 16:9, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank or turned-away screens only",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, face closeup, child face closeup, distorted forms, fake receipts, fake official papers, financial numbers, medical labels, map labels, passport text, unsafe scene, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606111616,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.3,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "babd79c6-d508-4207-9d41-a068d08b8e1e",
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1618295,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_travelsavvypro_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tsv-baggage-claim-evidence-2026-04.png",
+      "filename": "tsv-baggage-claim-evidence-2026-04.png",
+      "prompt": "still life travel insurance claim kit with plain camera without brand marks, blank envelope, suitcase, no readable paper, no text, no logos, no people",
+      "positive_prompt": "still life travel insurance claim kit with plain camera without brand marks, blank envelope, suitcase, no readable paper, no text, no logos, no people, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112008,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "226812f6-0e60-4e38-8ad4-00621b413410",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_travelsavvypro_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1755194,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tsv-baggage-claim-evidence-2026-05.png",
+      "filename": "tsv-baggage-claim-evidence-2026-05.png",
+      "prompt": "still life home baggage inspection with open plain suitcase and blank checklist turned face down, no writing, no labels, no people",
+      "positive_prompt": "still life home baggage inspection with open plain suitcase and blank checklist turned face down, no writing, no labels, no people, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112009,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "5bf88e2b-2f29-433b-9973-01712aeffe54",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_travelsavvypro_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1700905,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260611-travelsavvypro-contact-sheet-final.jpg",
+  "final_visual_qa_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260611-travelsavvypro-contact-sheet-final.jpg",
+  "updated_after_visual_qa": "2026-06-11T10:20:35Z"
+}
