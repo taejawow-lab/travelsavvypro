@@ -1,0 +1,220 @@
+{
+  "site": "travelsavvypro",
+  "slug": "hotel-resort-fee-receipt-dispute-checklist-2026",
+  "date": "2026-06-12",
+  "host": "gti13",
+  "endpoint": "redacted-direct-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tsv-hotel-fee-dispute-2026-hero.png",
+      "filename": "tsv-hotel-fee-dispute-2026-hero.png",
+      "prompt": "realistic hotel travel receipt review desk with room key card blank, luggage tag blank, closed laptop, no readable receipts no logos",
+      "seed": 202606120613,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "e1ced763-54c5-46d1-8f9e-a843ae617704",
+      "comfy_output": {
+        "filename": "batch_d_20260612_travelsavvypro_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1369067
+    },
+    {
+      "file": "public/images/illustrations/tsv-hotel-fee-dispute-2026-01.png",
+      "filename": "tsv-hotel-fee-dispute-2026-01.png",
+      "prompt": "realistic hotel checkout receipt review with blank folio papers no readable text no logos",
+      "seed": 202606120614,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "6ebce288-fd2d-4c04-a320-aa2aaf61fe27",
+      "comfy_output": {
+        "filename": "batch_d_20260612_travelsavvypro_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1451113
+    },
+    {
+      "file": "public/images/illustrations/tsv-hotel-fee-dispute-2026-02.png",
+      "filename": "tsv-hotel-fee-dispute-2026-02.png",
+      "prompt": "realistic traveler organizing reservation evidence with blank phone screen and luggage no text",
+      "seed": 202606120615,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "44753513-59b0-4ba6-ad02-52f90bfd422b",
+      "comfy_output": {
+        "filename": "batch_d_20260612_travelsavvypro_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1793174
+    },
+    {
+      "file": "public/images/illustrations/tsv-hotel-fee-dispute-2026-03.png",
+      "filename": "tsv-hotel-fee-dispute-2026-03.png",
+      "prompt": "realistic front desk dispute preparation with plain key card and sealed envelope no numbers",
+      "seed": 202606120616,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "2a09c6cb-8a96-4134-bb04-482803d3def2",
+      "comfy_output": {
+        "filename": "batch_d_20260612_travelsavvypro_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1391405
+    },
+    {
+      "file": "public/images/illustrations/tsv-hotel-fee-dispute-2026-04.png",
+      "filename": "tsv-hotel-fee-dispute-2026-04.png",
+      "prompt": "realistic credit card hold tracking scene with blank cards face down no money no calculator",
+      "seed": 202606120617,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "55601704-4feb-42ac-99f1-63549eaf5960",
+      "comfy_output": {
+        "filename": "batch_d_20260612_travelsavvypro_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1313976
+    },
+    {
+      "file": "public/images/illustrations/tsv-hotel-fee-dispute-2026-05.png",
+      "filename": "tsv-hotel-fee-dispute-2026-05.png",
+      "prompt": "realistic vacation rental fee evidence folder with blank labels and closed tablet no UI no text",
+      "seed": 202606120618,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "2b1ddec6-2241-43f0-8b13-d77fda2a2f31",
+      "comfy_output": {
+        "filename": "batch_d_20260612_travelsavvypro_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1615322
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260612-travelsavvypro-contact-sheet.jpg",
+  "visual_qa": "passed after contact-sheet inspection; rejected first-pass images were regenerated/excluded by overwrite; final sheet accepted",
+  "regenerations": {
+    "/home/taekm33/blog-ops/16-sites/toolspilot/public/images/illustrations/tsp-api-key-rotation-2026-03.png": {
+      "prompt": "abstract API security rotation still life with sealed envelope, blank card, hardware security token, soft light, no hands, no keys, no screens, no text",
+      "seed": 202606121001,
+      "prompt_id": "3a510783-53a2-4e94-abc9-31c547f80bd2",
+      "comfy_output": {
+        "filename": "batch_d_20260612_regen_toolspilot_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1136758
+    },
+    "/home/taekm33/blog-ops/16-sites/toolspilot/public/images/illustrations/tsp-api-key-rotation-2026-04.png": {
+      "prompt": "cybersecurity incident response still life with closed notebook, sealed blank envelope, hardware security token, plain desk, no tools, no weapons, no keys, no text",
+      "seed": 202606121002,
+      "prompt_id": "c7121f9f-d0f3-41e2-8472-9ba0e79a6319",
+      "comfy_output": {
+        "filename": "batch_d_20260612_regen_toolspilot_04_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1976654
+    },
+    "/home/taekm33/blog-ops/16-sites/toolspilot/public/images/illustrations/tsp-api-key-rotation-2026-05.png": {
+      "prompt": "small team security review table with closed laptops, face down dark phones, blank colored cards, no visible screens, no UI, no text",
+      "seed": 202606121003,
+      "prompt_id": "abc43f22-f03a-4b98-b7ba-e94bd472c828",
+      "comfy_output": {
+        "filename": "batch_d_20260612_regen_toolspilot_05_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1281632
+    },
+    "/home/taekm33/blog-ops/16-sites/travelsavvypro/public/images/illustrations/tsv-hotel-fee-dispute-2026-04.png": {
+      "prompt": "hotel deposit hold evidence concept with plain blank colored rectangles, suitcase fabric, pen, no card shape, no logos, no numbers, no money",
+      "seed": 202606121004,
+      "prompt_id": "b32481e5-cad6-4f20-994e-23f32758783b",
+      "comfy_output": {
+        "filename": "batch_d_20260612_regen_travelsavvypro_04_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1939855
+    },
+    "/home/taekm33/blog-ops/16-sites/travelsavvypro/public/images/illustrations/tsv-hotel-fee-dispute-2026-05.png": {
+      "prompt": "vacation rental fee evidence folder still life with closed tablet face down dark, blank folders, plant, no screen, no UI, no text",
+      "seed": 202606121005,
+      "prompt_id": "a0897a6d-47aa-461f-bad5-e432f8fdc352",
+      "comfy_output": {
+        "filename": "batch_d_20260612_regen_travelsavvypro_05_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1444644
+    }
+  },
+  "final_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260612-travelsavvypro-contact-sheet-final.jpg"
+}
