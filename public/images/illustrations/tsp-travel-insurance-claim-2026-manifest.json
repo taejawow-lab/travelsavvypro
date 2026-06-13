@@ -1,0 +1,190 @@
+{
+  "site": "travelsavvypro",
+  "slug": "travel-insurance-claim-evidence-checklist-2026",
+  "date": "2026-06-13",
+  "endpoint": "GTI13 direct ComfyUI (internal endpoint redacted in final report)",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "filename": "tsp-travel-insurance-claim-2026-hero.png",
+      "path": "public/images/illustrations/tsp-travel-insurance-claim-2026-hero.png",
+      "renderUrl": "/images/illustrations/tsp-travel-insurance-claim-2026-hero.png",
+      "prompt": "realistic travel insurance evidence still life with closed vintage suitcase, plain blank luggage tag turned away, sealed envelope, no passport, no documents, no text",
+      "negative": "text, words, letters, numbers, logos, labels, forms, receipts, documents, passports, boarding passes, phone screen, UI, code, calculator, calendar, paperwork, cards with writing, first aid label, people, faces, children, hands, watermark, low quality, distorted",
+      "seed": 202606132003,
+      "prompt_id": "62ff6e01-f921-436d-9216-5c214ae41220",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 4.5,
+      "steps": 30,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_final2_travelsavvypro_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true,
+      "qa_regenerated_final2": true
+    },
+    {
+      "filename": "tsp-travel-insurance-claim-2026-01.png",
+      "path": "public/images/illustrations/tsp-travel-insurance-claim-2026-01.png",
+      "renderUrl": "/images/illustrations/tsp-travel-insurance-claim-2026-01.png",
+      "prompt": "realistic airport delay evidence metaphor with dark phone face down beside suitcase and blank cards, no screen, no boarding pass, no text",
+      "negative": "readable text, words, letters, numbers, logos, labels, forms, receipts, documents, passports, boarding passes, phone screen, UI, code, calculator buttons, calendar grid, fake paperwork, people, faces, children, hands closeup, watermark, low quality, distorted objects",
+      "seed": 202606131009,
+      "prompt_id": "a4cb9637-e85e-4849-925e-5815a260a33d",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 4.8,
+      "steps": 28,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_final_travelsavvypro_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "filename": "tsp-travel-insurance-claim-2026-02.png",
+      "path": "public/images/illustrations/tsp-travel-insurance-claim-2026-02.png",
+      "renderUrl": "/images/illustrations/tsp-travel-insurance-claim-2026-02.png",
+      "prompt": "realistic baggage claim report metaphor with suitcase and plain blank tag, no labels no numbers",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, child face closeup, unsafe water scene, medicine labels",
+      "seed": 202606130415,
+      "prompt_id": "3e5be168-8d2a-47d2-a6c6-116de64b14ad",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 26,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_travelsavvypro_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "tsp-travel-insurance-claim-2026-03.png",
+      "path": "public/images/illustrations/tsp-travel-insurance-claim-2026-03.png",
+      "renderUrl": "/images/illustrations/tsp-travel-insurance-claim-2026-03.png",
+      "prompt": "realistic travel health expense preparation still life with plain unlabeled red pouch turned away, folded towel, sealed blank envelope, no medical symbols, no labels, no text",
+      "negative": "text, words, letters, numbers, logos, labels, forms, receipts, documents, passports, boarding passes, phone screen, UI, code, calculator, calendar, paperwork, cards with writing, first aid label, people, faces, children, hands, watermark, low quality, distorted",
+      "seed": 202606132004,
+      "prompt_id": "d8906bda-8cfc-4cf8-89cb-b7a3664ed733",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 4.5,
+      "steps": 30,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_final2_travelsavvypro_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true,
+      "qa_regenerated_final2": true
+    },
+    {
+      "filename": "tsp-travel-insurance-claim-2026-04.png",
+      "path": "public/images/illustrations/tsp-travel-insurance-claim-2026-04.png",
+      "renderUrl": "/images/illustrations/tsp-travel-insurance-claim-2026-04.png",
+      "prompt": "realistic trip delay timeline metaphor with only smooth colored pebbles arranged in a line on plain table, no cards, no paper, no letters, no numbers",
+      "negative": "text, words, letters, numbers, logos, labels, forms, receipts, documents, passports, boarding passes, phone screen, UI, code, calculator, calendar, paperwork, cards with writing, first aid label, people, faces, children, hands, watermark, low quality, distorted",
+      "seed": 202606132005,
+      "prompt_id": "3778f18f-dfde-425a-866c-129570bcdb63",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 4.5,
+      "steps": 30,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_final2_travelsavvypro_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true,
+      "qa_regenerated_final2": true
+    },
+    {
+      "filename": "tsp-travel-insurance-claim-2026-05.png",
+      "path": "public/images/illustrations/tsp-travel-insurance-claim-2026-05.png",
+      "renderUrl": "/images/illustrations/tsp-travel-insurance-claim-2026-05.png",
+      "prompt": "realistic organized travel claim folder beside suitcase, all documents blank no text",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, child face closeup, unsafe water scene, medicine labels",
+      "seed": 202606130418,
+      "prompt_id": "d5d50155-fbaa-47ef-994d-004ee2f9c0a9",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 26,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_travelsavvypro_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "preflight": {
+    "ok": true,
+    "site": "travelsavvypro",
+    "slug": "travel-insurance-claim-evidence-checklist-2026",
+    "title": "Travel Insurance Claim Evidence Checklist for 2026 Trips",
+    "candidate_tokens": [
+      "claim",
+      "evidence",
+      "insurance",
+      "travel",
+      "trips"
+    ],
+    "threshold": 0.42,
+    "near_duplicates": []
+  },
+  "source_url_check_bad": [
+    [
+      "https://www.transportation.gov/airconsumer/airline-customer-service-dashboard",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "https://www.transportation.gov/airconsumer/refunds",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "https://consumer.ftc.gov/articles/travel-scams",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "https://content.naic.org/consumer/travel-insurance",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "https://www.transportation.gov/lost-delayed-or-damaged-baggage",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "https://travel.state.gov/content/travel/en/international-travel/before-you-go/quick-facts.html",
+      "HTTP Error 404: Not Found"
+    ]
+  ],
+  "final_visual_qa_note": "Final2 regenerated remaining rejects for text/document/people artifacts; contact sheet final2 used for QA."
+}
