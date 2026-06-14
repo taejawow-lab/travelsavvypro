@@ -1,0 +1,184 @@
+{
+  "site": "travelsavvypro",
+  "slug": "tsa-prescription-medication-travel-label-checklist-2026",
+  "title": "TSA Prescription Medication Travel Label Checklist for 2026",
+  "date": "2026-06-14",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "filename": "tsp-medication-travel-2026-hero.png",
+      "file": "public/images/illustrations/tsp-medication-travel-2026-hero.png",
+      "prompt": "plain travel medicine pouch closed beside suitcase, passport hidden under blank folder, dark phone face down, no bottles, no pills, no labels, no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606158038,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true,
+      "prompt_id": "ad3ce782-9a63-4b56-9faf-e148f35330fb",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen_travelsavvypro_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2246557
+    },
+    {
+      "filename": "tsp-medication-travel-2026-01.png",
+      "file": "public/images/illustrations/tsp-medication-travel-2026-01.png",
+      "prompt": "closed medication travel pouch inside suitcase with blank fabric organizer, no loose pills, no bottles, no labels, no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606157211,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true,
+      "prompt_id": "0534d4bd-a193-4903-8cb2-763d84e794df",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen_travelsavvypro_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2282387
+    },
+    {
+      "filename": "tsp-medication-travel-2026-02.png",
+      "file": "public/images/illustrations/tsp-medication-travel-2026-02.png",
+      "prompt": "minimal travel packing still life, closed plain fabric organizer pouch and blank beige folder in suitcase, no passport, no medicine bottles, no pills, no clock, no documents, no text, no labels",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art, passport, watch, clock, bottle, pill, tablet, capsule, label",
+      "seed": 202606175222,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": "final3",
+      "prompt_id": "cf11c91f-b80d-4cfa-86ed-cf2fabaa2222",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen3_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1781235
+    },
+    {
+      "filename": "tsp-medication-travel-2026-03.png",
+      "file": "public/images/illustrations/tsp-medication-travel-2026-03.png",
+      "prompt": "minimal travel schedule still life, closed plain fabric pouch and blank round wooden token with no marks on dark table, no clock, no watch, no numbers, no pills, no bottles, no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art, passport, watch, clock, bottle, pill, tablet, capsule, label",
+      "seed": 202606172379,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": "final3",
+      "prompt_id": "b865fb46-3944-4c21-98ba-9af3a9f5c728",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen3_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1498300
+    },
+    {
+      "filename": "tsp-medication-travel-2026-04.png",
+      "file": "public/images/illustrations/tsp-medication-travel-2026-04.png",
+      "prompt": "airport security preparation abstract still life, empty clear pouch folded beside closed orange fabric bag, no medicine bottles, no pills, no labels, no documents, no people, no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art, passport, watch, clock, bottle, pill, tablet, capsule, label",
+      "seed": 202606176574,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": "final3",
+      "prompt_id": "bb79f12d-4618-41f8-a921-b14e5dc6f5e2",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen3_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2457256
+    },
+    {
+      "filename": "tsp-medication-travel-2026-05.png",
+      "file": "public/images/illustrations/tsp-medication-travel-2026-05.png",
+      "prompt": "international travel health folder with blank cover and sealed pouch, passport fully covered, no visible words, no forms, no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606158224,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true,
+      "prompt_id": "0e2cfe96-6647-46d4-afe8-b0de448536a5",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen_travelsavvypro_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2448474
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260614-travelsavvypro-contact-sheet-final3.jpg",
+  "sources": [
+    "https://www.tsa.gov/travel/travel-tips",
+    "https://www.tsa.gov/travel/security-screening/whatcanibring/items/medications-liquid",
+    "https://wwwnc.cdc.gov/travel/page/travel-abroad-with-medicine",
+    "https://wwwnc.cdc.gov/travel",
+    "https://www.fda.gov/drugs/special-features/traveling-medication",
+    "https://www.cbp.gov/travel/us-citizens/know-before-you-go",
+    "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
+    "https://www.incb.org/incb/en/travellers/index.html"
+  ],
+  "qa_note": "Final3 manifest after visual-QA regenerations on 2026-06-14."
+}
