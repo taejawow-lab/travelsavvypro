@@ -1,0 +1,117 @@
+{
+  "site": "travelsavvypro",
+  "slug": "passport-renewal-photo-rejection-prevention-checklist-2026",
+  "title": "Passport Renewal Photo Rejection Prevention Checklist for 2026",
+  "date": "2026-06-15",
+  "gti13_only": true,
+  "endpoint_redacted": "direct GTI13 ComfyUI endpoint verified by gate",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "count_1536x864_png": 6,
+  "images": [
+    {
+      "file": "public/images/illustrations/tsp-passport-photo-rejection-2026-hero.png",
+      "role": "hero",
+      "seed": 861502000,
+      "prompt": "realistic passport renewal planning flat lay with blank passport cover turned away, plain photo envelope no readable text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "789a1d47-0ed6-4946-a629-eed77315e42b",
+      "remote": {
+        "filename": "tsp-passport-photo-rejection-2026-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tsp-passport-photo-rejection-2026-01.png",
+      "role": "01",
+      "seed": 861502001,
+      "prompt": "realistic neutral photo setup with plain wall, camera on tripod, no faces closeup, no documents text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4034d4da-5fdb-4518-883f-5cae98c46452",
+      "remote": {
+        "filename": "tsp-passport-photo-rejection-2026-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tsp-passport-photo-rejection-2026-02.png",
+      "role": "02",
+      "seed": 861599600,
+      "prompt": "passport photo rejection prevention concept using only blank tan envelopes, empty white photo sleeve, plain lockbox, no passport booklet, no forms, no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1f0a160f-b71a-4b10-b965-8973883f9c42",
+      "remote": {
+        "filename": "tsp-passport-photo-rejection-2026-02-regen2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated2": true
+    },
+    {
+      "file": "public/images/illustrations/tsp-passport-photo-rejection-2026-03.png",
+      "role": "03",
+      "seed": 861599201,
+      "prompt": "travel document privacy desk with closed laptop dark screen, blank envelope, plain lockbox, no visible screen UI, no writing",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "80ea8c3a-66af-46cf-b246-43cb655ad33c",
+      "remote": {
+        "filename": "tsp-passport-photo-rejection-2026-03-regen_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "file": "public/images/illustrations/tsp-passport-photo-rejection-2026-04.png",
+      "role": "04",
+      "seed": 861599202,
+      "prompt": "application correction concept with plain blank sheets face down and sealed envelope, no form lines, no readable marks, no passport",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1870ddcb-4e2a-4a93-ae44-f244c77a8720",
+      "remote": {
+        "filename": "tsp-passport-photo-rejection-2026-04-regen_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "file": "public/images/illustrations/tsp-passport-photo-rejection-2026-05.png",
+      "role": "05",
+      "seed": 861502005,
+      "prompt": "realistic privacy safe travel document storage with lockbox and plain envelope no labels no logos",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9c0d288b-6a36-46e4-a63b-9b81345a5770",
+      "remote": {
+        "filename": "tsp-passport-photo-rejection-2026-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/tsp-passport-photo-rejection-2026-contact-sheet-final2.jpg",
+  "visual_qa": {
+    "status": "passed",
+    "review": "final contact sheet visually inspected; regenerated/replaced rejected assets; no readable text/logos/UI or safety/privacy blockers observed",
+    "contact_sheet": "public/images/illustrations/tsp-passport-photo-rejection-2026-contact-sheet-final2.jpg"
+  }
+}
