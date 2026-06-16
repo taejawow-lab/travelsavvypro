@@ -1,0 +1,181 @@
+{
+  "site": "travelsavvypro",
+  "slug": "real-id-airport-document-backup-checklist-2026",
+  "date": "2026-06-16",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tsv-real-id-document-backup-2026-hero.png",
+      "filename": "tsv-real-id-document-backup-2026-hero.png",
+      "prompt": "realistic airport packing table with closed passport cover, plain wallet, blank boarding pass-shaped card, dark phone screen, no readable text no logos",
+      "positive_prompt": "realistic airport packing table with closed passport cover, plain wallet, blank boarding pass-shaped card, dark phone screen, no readable text no logos, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, safe factual scene, absolutely no embedded text, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, barcodes, QR codes, label, logo, brand, watermark, document, form, receipt, UI, screen content, code editor, calendar, handwriting, face, child face, people closeup, readable, low quality, distorted objects, unsafe scene, fake official paper",
+      "seed": 202606160613,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "cb0a6057-5074-445a-bb15-5f43aa7b5d6c",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_travelsavvypro_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1476100,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tsv-real-id-document-backup-2026-01.png",
+      "filename": "tsv-real-id-document-backup-2026-01.png",
+      "prompt": "travel backup pouch still life with empty soft green pouch, plain fabric dividers, unmarked solid color rectangles fully blank and face down, no books, no passports, no paper, no text, no people",
+      "positive_prompt": "travel backup pouch still life with empty soft green pouch, plain fabric dividers, unmarked solid color rectangles fully blank and face down, no books, no passports, no paper, no text, no people, realistic editorial still life, clean travel preparation, absolutely blank objects only, no readable markings anywhere",
+      "negative_prompt": "text, words, letters, numbers, book, booklet, passport, ID, card with markings, paper, form, ticket, label, logo, brand, barcode, QR, UI, person, face, hands, map, screen",
+      "seed": 202606161701,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "d1fa0bb0-0d6d-4fed-b977-04def88d0cfa",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final3_travel_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1956809,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 4.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": "final3"
+    },
+    {
+      "file": "public/images/illustrations/tsv-real-id-document-backup-2026-02.png",
+      "filename": "tsv-real-id-document-backup-2026-02.png",
+      "prompt": "family travel pouch still life with plain green pouch, dark phone face down, blank cards, no brand tags, no text, no people",
+      "positive_prompt": "family travel pouch still life with plain green pouch, dark phone face down, blank cards, no brand tags, no text, no people, professional realistic editorial still life photography, 16:9, natural light, high detail, safe factual scene, absolutely no embedded text, no logos, no brands, no readable markings",
+      "negative_prompt": "person, people, human, face, eyes, skin, hands, child, text, words, letters, numbers, keyboard letters, calculator, money, currency, coins, bills, passport text, form, document text, label, logo, brand, QR, barcode, UI, screen content, map text, handwriting, low quality, distorted",
+      "seed": 202606161206,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e736650b-9e12-4f5e-8a42-8d62987d9966",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final_travelsavvypro_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2327706,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tsv-real-id-document-backup-2026-03.png",
+      "filename": "tsv-real-id-document-backup-2026-03.png",
+      "prompt": "airport contingency still life: plain closed black wallet, dark phone face down, unmarked fabric pouch, blank white cards turned over, no red card, no IDs, no labels, no people",
+      "positive_prompt": "airport contingency still life: plain closed black wallet, dark phone face down, unmarked fabric pouch, blank white cards turned over, no red card, no IDs, no labels, no people, professional realistic editorial still life photography, high detail, no readable markings anywhere, blank objects only",
+      "negative_prompt": "text, words, letters, numbers, label, logo, brand, watermark, form, document, paper, passport, ID card, ticket, boarding pass, barcode, QR, UI, screen, map, human, person, face, child, hands, low quality",
+      "seed": 202606161502,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "2e0613c1-7bff-4172-b8a5-8eb161588a93",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final2_travelsavvypro_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2259163,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": "final2"
+    },
+    {
+      "file": "public/images/illustrations/tsv-real-id-document-backup-2026-04.png",
+      "filename": "tsv-real-id-document-backup-2026-04.png",
+      "prompt": "travel planning still life with closed laptop, blank sticky notes, plain compass, no map, no screen, no text, no people",
+      "positive_prompt": "travel planning still life with closed laptop, blank sticky notes, plain compass, no map, no screen, no text, no people, professional realistic editorial still life photography, 16:9, natural light, high detail, safe factual scene, absolutely no embedded text, no logos, no brands, no readable markings",
+      "negative_prompt": "person, people, human, face, eyes, skin, hands, child, text, words, letters, numbers, keyboard letters, calculator, money, currency, coins, bills, passport text, form, document text, label, logo, brand, QR, barcode, UI, screen content, map text, handwriting, low quality, distorted",
+      "seed": 202606161208,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "7c1b0548-99dd-4e07-91bc-40b436973bd5",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final_travelsavvypro_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1842685,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tsv-real-id-document-backup-2026-05.png",
+      "filename": "tsv-real-id-document-backup-2026-05.png",
+      "prompt": "backup ID contingency kit still life with plain envelope, unmarked luggage tag turned away, closed suitcase, no forms, no text, no logos, no people",
+      "positive_prompt": "backup ID contingency kit still life with plain envelope, unmarked luggage tag turned away, closed suitcase, no forms, no text, no logos, no people, professional realistic editorial still life photography, 16:9, natural light, high detail, safe factual scene, absolutely no embedded text, no logos, no brands, no readable markings",
+      "negative_prompt": "person, people, human, face, eyes, skin, hands, child, text, words, letters, numbers, keyboard letters, calculator, money, currency, coins, bills, passport text, form, document text, label, logo, brand, QR, barcode, UI, screen content, map text, handwriting, low quality, distorted",
+      "seed": 202606161209,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "617ae93a-d049-46f5-98e5-5edfdfb67256",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final_travelsavvypro_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1688452,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260616-travelsavvypro-contact-sheet-final3.jpg",
+  "visual_qa_status": "pending-human/agent-contact-sheet-review",
+  "final_visual_qa_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260616-travelsavvypro-contact-sheet-final3.jpg",
+  "updated_after_visual_qa": "2026-06-16T00:00:00Z"
+}
