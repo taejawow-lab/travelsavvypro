@@ -1,0 +1,183 @@
+{
+  "site": "travelsavvypro",
+  "slug": "flight-delay-meal-hotel-receipt-claim-checklist-2026",
+  "date": "2026-06-17",
+  "endpoint": "redacted-direct-gti13",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tsp-delay-receipt-claim-20260617-hero.png",
+      "filename": "tsp-delay-receipt-claim-20260617-hero.png",
+      "prompt": "realistic airport travel desk with boarding pass turned blank, plain meal container, hotel key sleeve blank, suitcase, no readable text no logos",
+      "positive_prompt": "realistic airport travel desk with boarding pass turned blank, plain meal container, hotel key sleeve blank, suitcase, no readable text no logos, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment screen, login form, passport, official seal, barcode, fake label, child face closeup, bad hands, distorted objects, unsafe scene, low quality, blurry, cartoon, placeholder, stock art",
+      "seed": 202606170613,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "30439923-83de-4552-9ca0-2a54c0673fb6",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_travelsavvypro_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1516758,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tsp-delay-receipt-claim-20260617-01.png",
+      "filename": "tsp-delay-receipt-claim-20260617-01.png",
+      "prompt": "realistic delayed flight travel kit with suitcase, water bottle, plain snack pouch, all papers absent, no receipts, no boarding pass, no text, no logos",
+      "positive_prompt": "realistic delayed flight travel kit with suitcase, water bottle, plain snack pouch, all papers absent, no receipts, no boarding pass, no text, no logos, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment card, currency, receipt, form, barcode, official seal, calculator, phone screen, laptop screen, child face, people face, label, packaging label, medical label, low quality, blurry, distorted objects",
+      "seed": 202606171009,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "838ada62-005f-4a5d-a26e-930c77631552",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_qa_travelsavvypro_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2378334,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tsp-delay-receipt-claim-20260617-02.png",
+      "filename": "tsp-delay-receipt-claim-20260617-02.png",
+      "prompt": "realistic meal reimbursement evidence still life with covered food container and blank envelope only, no receipt, no forms, no printed text, no logos",
+      "positive_prompt": "realistic meal reimbursement evidence still life with covered food container and blank envelope only, no receipt, no forms, no printed text, no logos, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment card, currency, receipt, form, barcode, official seal, calculator, phone screen, laptop screen, child face, people face, label, packaging label, medical label, low quality, blurry, distorted objects",
+      "seed": 202606171010,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1fdb2969-00b9-4c51-acf0-06d4215b7cd2",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_qa_travelsavvypro_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1618570,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tsp-delay-receipt-claim-20260617-03.png",
+      "filename": "tsp-delay-receipt-claim-20260617-03.png",
+      "prompt": "realistic hotel reimbursement folder with blank key sleeve and plain envelope, no logos no text",
+      "positive_prompt": "realistic hotel reimbursement folder with blank key sleeve and plain envelope, no logos no text, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment screen, login form, passport, official seal, barcode, fake label, child face closeup, bad hands, distorted objects, unsafe scene, low quality, blurry, cartoon, placeholder, stock art",
+      "seed": 202606170616,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e970af94-9600-499b-8c48-be5d130178b8",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_travelsavvypro_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1697517,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tsp-delay-receipt-claim-20260617-04.png",
+      "filename": "tsp-delay-receipt-claim-20260617-04.png",
+      "prompt": "realistic travel claim folder with closed laptop, plain folder, blank cards, no forms, no readable documents, no screen UI",
+      "positive_prompt": "realistic travel claim folder with closed laptop, plain folder, blank cards, no forms, no readable documents, no screen UI, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment card, currency, receipt, form, barcode, official seal, calculator, phone screen, laptop screen, child face, people face, label, packaging label, medical label, low quality, blurry, distorted objects",
+      "seed": 202606171011,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "31e34b10-e7cf-4932-beac-26608fc5bbe4",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_qa_travelsavvypro_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1715999,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tsp-delay-receipt-claim-20260617-05.png",
+      "filename": "tsp-delay-receipt-claim-20260617-05.png",
+      "prompt": "realistic follow up timeline using plain colored cards and suitcase, no writing no calendar grid",
+      "positive_prompt": "realistic follow up timeline using plain colored cards and suitcase, no writing no calendar grid, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment screen, login form, passport, official seal, barcode, fake label, child face closeup, bad hands, distorted objects, unsafe scene, low quality, blurry, cartoon, placeholder, stock art",
+      "seed": 202606170618,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "138fea6b-87ce-4709-bb1c-f9ce969eed40",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_travelsavvypro_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1355663,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260617-travelsavvypro-contact-sheet-final.jpg",
+  "preflight": {
+    "rc": 0,
+    "out": "{\n  \"ok\": true,\n  \"site\": \"travelsavvypro\",\n  \"slug\": \"flight-delay-meal-hotel-receipt-claim-checklist-2026\",\n  \"title\": \"Flight Delay Meal and Hotel Receipt Claim Checklist for 2026\",\n  \"candidate_tokens\": [\n    \"claim\",\n    \"delay\",\n    \"flight\",\n    \"hotel\",\n    \"meal\",\n    \"receipt\"\n  ],\n  \"threshold\": 0.42,\n  \"near_duplicates\": []\n}\n",
+    "err": ""
+  },
+  "final_visual_qa_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260617-travelsavvypro-contact-sheet-final.jpg",
+  "updated_after_visual_qa": "2026-06-17T10:22:08Z"
+}
