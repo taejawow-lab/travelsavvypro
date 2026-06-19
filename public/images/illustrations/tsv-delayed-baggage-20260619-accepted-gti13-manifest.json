@@ -1,0 +1,76 @@
+{
+  "site": "travelsavvypro",
+  "slug": "delayed-baggage-essentials-receipt-claim-checklist-2026",
+  "date": "2026-06-19",
+  "host": "gti13",
+  "endpoint_redacted": true,
+  "visual_qa": "accepted contact sheet after rejecting text/UI/face/label-risk assets",
+  "assets": [
+    {
+      "filename": "tsv-delayed-baggage-20260619-hero.png",
+      "file": "public/images/illustrations/tsv-delayed-baggage-20260619-hero.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1553946,
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_after_visual_qa"
+    },
+    {
+      "filename": "tsv-delayed-baggage-20260619-01.png",
+      "file": "public/images/illustrations/tsv-delayed-baggage-20260619-01.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1632024,
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_after_visual_qa"
+    },
+    {
+      "filename": "tsv-delayed-baggage-20260619-03.png",
+      "file": "public/images/illustrations/tsv-delayed-baggage-20260619-03.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1330515,
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_after_visual_qa"
+    },
+    {
+      "filename": "tsv-delayed-baggage-20260619-04.png",
+      "file": "public/images/illustrations/tsv-delayed-baggage-20260619-04.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1259499,
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_after_visual_qa"
+    },
+    {
+      "filename": "tsv-delayed-baggage-20260619-05.png",
+      "file": "public/images/illustrations/tsv-delayed-baggage-20260619-05.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2062368,
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_after_visual_qa"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260619-travelsavvypro-contact-sheet-accepted.jpg"
+}
