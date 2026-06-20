@@ -1,0 +1,110 @@
+{
+  "site": "travelsavvypro",
+  "slug": "travel-insurance-medical-evacuation-document-checklist-2026",
+  "date": "2026-06-20",
+  "host": "gti13",
+  "endpoint": "direct ComfyUI (internal redacted in report)",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, document numbers, map labels, official seals, fake dashboard, fake warning label, child face closeup, visible currency, receipts with text, calculators with numbers, medical forms, passports, license plates",
+  "assets": [
+    {
+      "filename": "tsv-medical-evacuation-insurance-20260620-hero.png",
+      "render_url": "/images/illustrations/tsv-medical-evacuation-insurance-20260620-hero.png",
+      "prompt_id": "f10d36d9-fbc1-43d6-818c-86171e03c574",
+      "prompt": "realistic travel emergency planning still life with plain blue document wallet, blank notebook, water bottle, stethoscope partly visible, no passport, no text, no seal",
+      "seed": 768460,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "tsv-medical-evacuation-insurance-20260620_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "filename": "tsv-medical-evacuation-insurance-20260620-01.png",
+      "render_url": "/images/illustrations/tsv-medical-evacuation-insurance-20260620-01.png",
+      "prompt_id": "a2bf1f15-352b-4ea3-b48c-237ea6c62f81",
+      "prompt": "realistic emergency contact travel kit in backpack with blank cards, dark phone face down, plain pouches, no labels, no readable text, no heart icon",
+      "seed": 720047,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "tsv-medical-evacuation-insurance-20260620_00007_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "filename": "tsv-medical-evacuation-insurance-20260620-02.png",
+      "render_url": "/images/illustrations/tsv-medical-evacuation-insurance-20260620-02.png",
+      "prompt_id": "89cbfd29-a4a1-410c-abbf-82137f7faeaf",
+      "prompt": "realistic travel health pouch with unbranded bottles turned away, blank cloth pouches, no medicine labels, no printed papers, no text",
+      "seed": 767697,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "tsv-medical-evacuation-insurance-20260620_00008_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "filename": "tsv-medical-evacuation-insurance-20260620-03.png",
+      "render_url": "/images/illustrations/tsv-medical-evacuation-insurance-20260620-03.png",
+      "prompt_id": "6b4277f9-33ef-42c1-866f-4e8f58a01375",
+      "prompt": "realistic family travel insurance review still life with closed laptop, blank folders, suitcase handle, no screen content, no people on screen, no text",
+      "seed": 743179,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "tsv-medical-evacuation-insurance-20260620_00009_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "filename": "tsv-medical-evacuation-insurance-20260620-04.png",
+      "render_url": "/images/illustrations/tsv-medical-evacuation-insurance-20260620-04.png",
+      "prompt_id": "8f7e69ab-794b-47d1-8a68-d47b08522398",
+      "prompt": "realistic destination health checklist scene with suitcase, blank notebook, no map labels no documents",
+      "seed": 629568,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "tsv-medical-evacuation-insurance-20260620_00005_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "final_visual_qa_note": "Regenerated risky text/screen/form/child-face panels after contact-sheet QA; final contact sheet rewritten."
+}
