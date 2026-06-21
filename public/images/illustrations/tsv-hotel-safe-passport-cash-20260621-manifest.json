@@ -1,0 +1,111 @@
+{
+  "site": "travelsavvypro",
+  "slug": "hotel-safe-passport-cash-backup-checklist-2026",
+  "date": "2026-06-21",
+  "endpoint_host": "gti13 direct ComfyUI (internal URL redacted in report)",
+  "comfy_url": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "assets": [
+    {
+      "filename": "tsv-hotel-safe-passport-cash-20260621-hero.png",
+      "file": "public/images/illustrations/tsv-hotel-safe-passport-cash-20260621-hero.png",
+      "prompt": "realistic hotel room desk with passport cover closed, blank envelope, luggage lock, no readable text no money",
+      "seed": 202606210011,
+      "prompt_id": "1479bc71-422b-4265-bea9-30faf3f3d3b2",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1504817,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_travelsavvypro_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "tsv-hotel-safe-passport-cash-20260621-01.png",
+      "file": "public/images/illustrations/tsv-hotel-safe-passport-cash-20260621-01.png",
+      "prompt": "realistic travel document backup kit with sealed pouch, dark phone screen, plain folder, no logos no text",
+      "seed": 202606210012,
+      "prompt_id": "5ab5c0e4-3368-4694-a364-95524b2f43b0",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1848242,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_travelsavvypro_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "tsv-hotel-safe-passport-cash-20260621-02.png",
+      "file": "public/images/illustrations/tsv-hotel-safe-passport-cash-20260621-02.png",
+      "prompt": "realistic hotel safe open with plain blank fabric pouch, luggage lock, empty tray, no passport, no cash, no keys with logos, no text",
+      "seed": 202606212003,
+      "prompt_id": "ed3e9e4e-a0d4-49fe-ab4b-61141e64a056",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1938275,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_regen_travelsavvypro_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "filename": "tsv-hotel-safe-passport-cash-20260621-03.png",
+      "file": "public/images/illustrations/tsv-hotel-safe-passport-cash-20260621-03.png",
+      "prompt": "realistic travel backup packing cubes with closed plain wallet, luggage organizer, blank pouch, no cash, no currency, no cards, no text",
+      "seed": 202606212004,
+      "prompt_id": "b6e9c52d-58c1-4bdc-b18f-fa66a31d1d45",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1618208,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_regen_travelsavvypro_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "filename": "tsv-hotel-safe-passport-cash-20260621-04.png",
+      "file": "public/images/illustrations/tsv-hotel-safe-passport-cash-20260621-04.png",
+      "prompt": "realistic embassy emergency preparation still life with closed laptop dark screen, blank notebook, plain envelope, no map, no documents, no flags, no text",
+      "seed": 202606212005,
+      "prompt_id": "8c721dc4-42eb-44a1-98d9-c8a4148eb821",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1303349,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_regen_travelsavvypro_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa": true
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/tsv-hotel-safe-passport-cash-20260621-contact-sheet-final.jpg",
+  "visual_qa_status": "passed final contact-sheet review",
+  "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, document numbers, map labels, official seals, fake dashboard, fake warning label, child face closeup, readable forms, currency, coins, calculators with visible numbers",
+  "updated_after_visual_qa_regen": "2026-06-21T10:21:00Z"
+}
