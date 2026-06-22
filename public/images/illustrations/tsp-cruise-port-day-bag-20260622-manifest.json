@@ -1,0 +1,52 @@
+{
+  "site": "travelsavvypro",
+  "slug": "cruise-port-day-bag-medication-document-checklist-2026",
+  "date": "2026-06-22",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "visual_qa": "passed after excluding QA-rejected assets",
+  "accepted_count": 5,
+  "assets": [
+    {
+      "filename": "tsp-cruise-port-day-bag-20260622-hero.png",
+      "file": "public/images/illustrations/tsp-cruise-port-day-bag-20260622-hero.png",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "tsp-cruise-port-day-bag-20260622-01.png",
+      "file": "public/images/illustrations/tsp-cruise-port-day-bag-20260622-01.png",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "tsp-cruise-port-day-bag-20260622-02.png",
+      "file": "public/images/illustrations/tsp-cruise-port-day-bag-20260622-02.png",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "tsp-cruise-port-day-bag-20260622-04.png",
+      "file": "public/images/illustrations/tsp-cruise-port-day-bag-20260622-04.png",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "tsp-cruise-port-day-bag-20260622-05.png",
+      "file": "public/images/illustrations/tsp-cruise-port-day-bag-20260622-05.png",
+      "dimensions": [
+        1536,
+        864
+      ]
+    }
+  ]
+}
