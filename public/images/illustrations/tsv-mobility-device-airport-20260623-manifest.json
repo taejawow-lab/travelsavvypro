@@ -1,0 +1,121 @@
+{
+  "site": "travelsavvypro",
+  "slug": "airport-wheelchair-mobility-device-battery-checklist-2026",
+  "generated_at": "2026-06-23T10:16:34Z",
+  "host": "gti13",
+  "endpoint": "redacted-direct-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "assets": [
+    {
+      "file": "public/images/illustrations/tsv-mobility-device-airport-20260623-hero.png",
+      "filename": "tsv-mobility-device-airport-20260623-hero.png",
+      "prompt": "realistic accessible travel planning table with wheelchair wheel crop, blank luggage tag, closed passport cover no text no numbers",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, fake forms, fake documents, fake receipts, distorted interface, QR code, barcode, calendar grid, handwriting, medical label, legal document, financial statement, child face closeup, readable name tag, license plate, passport text, unsafe scene, raw meat, exposed wires, bad hands, bad anatomy, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606230201,
+      "prompt_id": "450c2891-bef4-49f1-bcca-b32e31f0efbc",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1740012,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260623_travelsavvypro_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tsv-mobility-device-airport-20260623-01.png",
+      "filename": "tsv-mobility-device-airport-20260623-01.png",
+      "prompt": "realistic mobility device battery documentation scene with plain battery case turned away, blank cards, no labels no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, fake forms, fake documents, fake receipts, distorted interface, QR code, barcode, calendar grid, handwriting, medical label, legal document, financial statement, child face closeup, readable name tag, license plate, passport text, unsafe scene, raw meat, exposed wires, bad hands, bad anatomy, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606230202,
+      "prompt_id": "6ac24abd-8ea9-432e-81d5-ad5daad908cb",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1263894,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260623_travelsavvypro_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tsv-mobility-device-airport-20260623-02.png",
+      "filename": "tsv-mobility-device-airport-20260623-02.png",
+      "prompt": "realistic airport assistance preparation with folded blanket, cane, plain folder, boarding pass hidden no readable text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, fake forms, fake documents, fake receipts, distorted interface, QR code, barcode, calendar grid, handwriting, medical label, legal document, financial statement, child face closeup, readable name tag, license plate, passport text, unsafe scene, raw meat, exposed wires, bad hands, bad anatomy, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606230203,
+      "prompt_id": "1bbdae31-f500-4089-982a-b04558e17b63",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2027185,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260623_travelsavvypro_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tsv-mobility-device-airport-20260623-03.png",
+      "filename": "tsv-mobility-device-airport-20260623-03.png",
+      "prompt": "realistic gate-check evidence photo setup with phone face down, wheelchair wheel, blank tag no numbers no logos",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, fake forms, fake documents, fake receipts, distorted interface, QR code, barcode, calendar grid, handwriting, medical label, legal document, financial statement, child face closeup, readable name tag, license plate, passport text, unsafe scene, raw meat, exposed wires, bad hands, bad anatomy, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606230204,
+      "prompt_id": "02b1579e-58da-4e2d-a3f9-50b74bb78bfc",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1914533,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260623_travelsavvypro_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tsv-mobility-device-airport-20260623-04.png",
+      "filename": "tsv-mobility-device-airport-20260623-04.png",
+      "prompt": "realistic backup mobility plan still life with small tool pouch, charger cable, plain envelope, no text no labels",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, fake forms, fake documents, fake receipts, distorted interface, QR code, barcode, calendar grid, handwriting, medical label, legal document, financial statement, child face closeup, readable name tag, license plate, passport text, unsafe scene, raw meat, exposed wires, bad hands, bad anatomy, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606230205,
+      "prompt_id": "94055635-1b40-492b-ba57-bd18b7375bb0",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2347229,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260623_travelsavvypro_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "visual_qa": "contact sheet created; manual visual QA required before final commit",
+  "contact_sheet": "public/images/illustrations/tsv-mobility-device-airport-20260623-contact-sheet.jpg"
+}
