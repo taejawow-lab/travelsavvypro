@@ -1,0 +1,89 @@
+{
+  "site": "travelsavvypro",
+  "slug": "hotel-room-power-outage-medication-device-checklist-2026",
+  "date": "2026-06-24",
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "steps": 24,
+    "cfg": "5.2-5.4",
+    "negative_prompt_summary": "no text, UI, labels, currency/forms, medical labels/pills, passport/ID text, child faces"
+  },
+  "final_contact_sheet": "reports/batch-d-20260624-contact-sheet-final.jpg",
+  "visual_qa": "passed after targeted regeneration; final contact sheet reviewed",
+  "assets": [
+    {
+      "filename": "tsp-hotel-power-outage-20260624-hero.png",
+      "url": "/images/illustrations/tsp-hotel-power-outage-20260624-hero.png",
+      "file": "public/images/illustrations/tsp-hotel-power-outage-20260624-hero.png",
+      "bytes": 2008979,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint": "redacted-direct-comfyui",
+      "status": "accepted_after_visual_qa",
+      "seed": "see run helper reports; targeted regenerations used deterministic 202606249xxx seeds where applicable"
+    },
+    {
+      "filename": "tsp-hotel-power-outage-20260624-01.png",
+      "url": "/images/illustrations/tsp-hotel-power-outage-20260624-01.png",
+      "file": "public/images/illustrations/tsp-hotel-power-outage-20260624-01.png",
+      "bytes": 1344984,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint": "redacted-direct-comfyui",
+      "status": "accepted_after_visual_qa",
+      "seed": "see run helper reports; targeted regenerations used deterministic 202606249xxx seeds where applicable"
+    },
+    {
+      "filename": "tsp-hotel-power-outage-20260624-02.png",
+      "url": "/images/illustrations/tsp-hotel-power-outage-20260624-02.png",
+      "file": "public/images/illustrations/tsp-hotel-power-outage-20260624-02.png",
+      "bytes": 1770235,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint": "redacted-direct-comfyui",
+      "status": "accepted_after_visual_qa",
+      "seed": "see run helper reports; targeted regenerations used deterministic 202606249xxx seeds where applicable"
+    },
+    {
+      "filename": "tsp-hotel-power-outage-20260624-03.png",
+      "url": "/images/illustrations/tsp-hotel-power-outage-20260624-03.png",
+      "file": "public/images/illustrations/tsp-hotel-power-outage-20260624-03.png",
+      "bytes": 1542961,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint": "redacted-direct-comfyui",
+      "status": "accepted_after_visual_qa",
+      "seed": "see run helper reports; targeted regenerations used deterministic 202606249xxx seeds where applicable"
+    },
+    {
+      "filename": "tsp-hotel-power-outage-20260624-04.png",
+      "url": "/images/illustrations/tsp-hotel-power-outage-20260624-04.png",
+      "file": "public/images/illustrations/tsp-hotel-power-outage-20260624-04.png",
+      "bytes": 1575719,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint": "redacted-direct-comfyui",
+      "status": "accepted_after_visual_qa",
+      "seed": "see run helper reports; targeted regenerations used deterministic 202606249xxx seeds where applicable"
+    }
+  ]
+}
