@@ -1,0 +1,49 @@
+{
+  "site": "travelsavvypro",
+  "slug": "wildfire-smoke-airport-delay-mask-medication-checklist-2026",
+  "date": "2026-06-30",
+  "gate": "GTI15 gate passed before generation",
+  "endpoint_host": "gti15 direct ComfyUI endpoint redacted in public report",
+  "assets": [
+    {
+      "render_url": "/images/illustrations/tsp-wildfire-smoke-delay-20260630-1.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/travelsavvypro_b/20260630_191813_krea_1832670500.png",
+      "filename": "tsp-wildfire-smoke-delay-20260630-1.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/tsp-wildfire-smoke-delay-20260630-2.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/travelsavvypro_b/20260630_191846_realvis_1832670501.png",
+      "filename": "tsp-wildfire-smoke-delay-20260630-2.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/tsp-wildfire-smoke-delay-20260630-3.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/travelsavvypro_b/20260630_191901_juggernaut_1832670502.png",
+      "filename": "tsp-wildfire-smoke-delay-20260630-3.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/tsp-wildfire-smoke-delay-20260630-4.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/travelsavvypro_a/20260630_191742_realvis_2474049403.png",
+      "filename": "tsp-wildfire-smoke-delay-20260630-4.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/tsp-wildfire-smoke-delay-20260630-5.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/travelsavvypro_c/20260630_192721_realvis_2494537045.png",
+      "filename": "tsp-wildfire-smoke-delay-20260630-5.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    }
+  ]
+}
