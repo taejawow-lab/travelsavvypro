@@ -1,0 +1,23 @@
+{
+  "site": "travelsavvypro",
+  "slug": "hotel-carbon-monoxide-alarm-travel-safety-checklist-2026",
+  "created": "2026-07-01",
+  "generator": "GTI15 ComfyUI via generate_natural_blog_candidates.py",
+  "endpoint_host": "gti15 redacted direct endpoint",
+  "dimensions": "1536x864",
+  "accepted_images": [
+    "/images/illustrations/tsp-hotel-co-alarm-20260701-1.png",
+    "/images/illustrations/tsp-hotel-co-alarm-20260701-2.png",
+    "/images/illustrations/tsp-hotel-co-alarm-20260701-3.png",
+    "/images/illustrations/tsp-hotel-co-alarm-20260701-4.png",
+    "/images/illustrations/tsp-hotel-co-alarm-20260701-5.png"
+  ],
+  "selected_sources": [
+    "pass1/20260701_191636_krea_988933262.png",
+    "pass1/20260701_191724_juggernaut_988933264.png",
+    "pass2/20260701_191828_juggernaut_1681003582.png",
+    "pass3/20260701_192125_krea_634015643.png",
+    "pass3/20260701_192158_realvis_634015644.png"
+  ],
+  "visual_qa": "manual contact-sheet QA passed for selected images; rejected images excluded where applicable"
+}
